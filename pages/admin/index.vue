@@ -1,4 +1,6 @@
 <template>
+<div>
+  <v-btn color="deep-purple accent-4" dark to="/admin/post/add">Add Post</v-btn>
   <v-row>
     <v-col
       xs12
@@ -10,6 +12,7 @@
       <post-card :post="post" :is-admin="true"></post-card>
     </v-col>
   </v-row>
+</div>
 </template>
 
 <script>
